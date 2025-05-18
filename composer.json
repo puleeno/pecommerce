@@ -1,0 +1,25 @@
+{
+    "name": "puleeno/pecommerce",
+    "description": "Ecommerce WordPress plugin by Puleeno Nguyen",
+    "autoload": {
+        "psr-4": {
+            "Puleeno\\Pecommerce\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Puleeno Nguyen",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "vendor-dir": "libs",
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "require-dev": {
+        "puleeno/wp-league-omnipay": "dev-master"
+    }
+}
